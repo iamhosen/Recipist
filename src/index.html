@@ -13,54 +13,37 @@
     <!-- <link rel="stylesheet" href="src/sass/main.scss" /> -->
     <!-- <script defer src="./js/controller.js"></script> -->
 
-    <title>forkify // Search over 1,000,000 recipes</title>
+    <title>Recipist</title>
   </head>
 
   <body>
     <div class="container">
       <header class="header">
-        <img src="src/img/logo.png" alt="Logo" class="header__logo" />
+        <!-- <img src="src/img/logo.png" alt="Logo" class="header__logo" /> -->
+        <a href="#" class="header__logo">Recipist</a>
         <form class="search">
           <input
             type="text"
             class="search__field"
             placeholder="Search over 1,000,000 recipes..."
           />
-          <button class="btn search__btn">
-            <svg class="search__icon">
-              <use href="src/img/icons.svg#icon-search"></use>
-            </svg>
-            <span>Search</span>
-          </button>
+          <button class="btn search__btn">🔍 Search</button>
         </form>
 
         <nav class="nav">
           <ul class="nav__list">
             <li class="nav__item">
               <button class="nav__btn nav__btn--add-recipe">
-                <svg class="nav__icon">
-                  <use href="src/img/icons.svg#icon-edit"></use>
-                </svg>
-                <span>Add recipe</span>
+                ✏️ Add recipe
               </button>
             </li>
             <li class="nav__item">
-              <button class="nav__btn nav__btn--bookmarks">
-                <svg class="nav__icon">
-                  <use href="src/img/icons.svg#icon-bookmark"></use>
-                </svg>
-                <span>Bookmarks</span>
-              </button>
+              <button class="nav__btn nav__btn--bookmarks">📨 Bookmarks</button>
               <div class="bookmarks">
                 <ul class="bookmarks__list">
                   <div class="message">
-                    <div>
-                      <svg>
-                        <use href="src/img/icons.svg#icon-smile"></use>
-                      </svg>
-                    </div>
                     <p>
-                      No bookmarks yet. Find a nice recipe and bookmark it :)
+                      No bookmarks yet. Find a nice recipe and bookmark it :
                     </p>
                   </div>
 
@@ -121,25 +104,11 @@
           </button> -->
         </div>
 
-        <p class="copyright">
-          &copy; Copyright by
-          <a
-            class="twitter-link"
-            target="_blank"
-            href="https://twitter.com/jonasschmedtman"
-            >Jonas Schmedtmann</a
-          >. Use for learning or your portfolio. Don't use to teach. Don't claim
-          as your own.
-        </p>
+        <p class="copyright">&copy; Hossein Amirhosseini</p>
       </div>
 
       <div class="recipe">
         <div class="message">
-          <div>
-            <svg>
-              <use href="src/img/icons.svg#icon-smile"></use>
-            </svg>
-          </div>
           <p>Start by searching for a recipe or an ingredient. Have fun!</p>
         </div>
 
@@ -320,12 +289,7 @@
           />
         </div>
 
-        <button class="btn upload__btn">
-          <svg>
-            <use href="src/img/icons.svg#icon-upload-cloud"></use>
-          </svg>
-          <span>Upload</span>
-        </button>
+        <button class="btn upload__btn">📤 Upload</button>
       </form>
     </div>
   </body>

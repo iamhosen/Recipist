@@ -1,7 +1,5 @@
 import '../sass/main.scss';
-import logoPng from '../img/logo.png';
-const logo = document.querySelector('.header__logo');
-logo.src = logoPng;
+import icon from '../img/icons.svg';
 
 import * as model from './model';
 import reciptView from './views/reciptView';

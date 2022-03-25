@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
 .header {
   grid-area: head;
   background-color: $color-grey-light-1;
@@ -7,8 +9,12 @@
 
   &__logo {
     margin-left: 4rem;
-    height: 4.6rem;
+    // height: 4.6rem;
     display: block;
+    text-decoration: none;
+    font-family: 'Lobster', cursive;
+    font-size: 5rem;
+    color: #3c82f6;
   }
 }
 
